@@ -9,10 +9,44 @@ Any format will do. If we can, perhaps we can add extra metadata with the baseca
 #### 1
     filename	read_id	run_id	channel	start_time	duration	num_events	template_start	num_events_template	template_duration	sequence_length_template	mean_qscore_template	strand_score_template
 
+
+| Column   | **Description** |
+| ------------- | ------------- |
+| filename | fast5 filename |
+| read_id | unique ID per read |
+| read_id | unique ID per run |
+| channel | channel reading the read |
+| start_time | time of read sequencing since experiment start |
+| duration | time taken to sequence read |
+| num_events | number of events detected |
+| template_start |  |
+| num_events_template |  |
+| template_duration |  |
+| sequence_length_template | number of nucleotides in basecalled sequence |
+| mean_qscore_template | average quality score of read |
+| strand_score_template | |
+
 #### 2
     filename	read_id	run_id	channel	start_time	duration	num_events	passes_filtering	template_start	num_events_template	template_duration	sequence_length_template	mean_qscore_template	strand_score_template	median_template	mad_template
 
-
+| Column   | **Description** |
+| ------------- | ------------- |
+| filename | fast5 filename |
+| read_id | unique ID per read |
+| read_id | unique ID per run |
+| channel | channel reading the read |
+| start_time | time of read sequencing since experiment start |
+| duration | time taken to sequence read |
+| num_events | number of events detected |
+| passes_filtering |  |
+| template_start |  |
+| num_events_template |  |
+| template_duration |  |
+| sequence_length_template | number of nucleotides in basecalled sequence |
+| mean_qscore_template | average quality score of read |
+| strand_score_template | |
+| median_template |   |
+| mad_template |  |
 
 ## multi_f5
 
