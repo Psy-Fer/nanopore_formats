@@ -59,6 +59,9 @@ Any format will do. If we can, perhaps we can add extra metadata with the baseca
 #### 2
     filename_fastq	filename_fast5	read_id	run_id	channel	mux	start_time	duration	num_events	passes_filtering	template_start	num_events_template	template_duration	sequence_length_template mean_qscore_template	strand_score_template	median_template	mad_template	pore_type	experiment_id	sample_id
 
+#### 3
+    filename	read_id	run_id	batch_id	channel	mux	start_time	duration	num_events	passes_filtering	template_start	num_events_template	template_duration	sequence_length_template	mean_qscore_template	strand_score_template	median_template	mad_template	calibration_strand_genome	calibration_strand_genome_start	calibration_strand_genome_end	calibration_strand_strand_start	calibration_strand_strand_end	calibration_strand_num_insertions	calibration_strand_num_deletions	calibration_strand_num_aligned	calibration_strand_num_correctcalibration_strand_identity	calibration_strand_accuracy	calibration_strand_score
+
 
 ## 1D^2
 
